@@ -1,0 +1,6 @@
+package lesson_6.interface4;
+    public interface Employee {
+    void work();
+
+    abstract double getSalary();
+}
