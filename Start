@@ -1,0 +1,12 @@
+package lesson_6.interface4;
+
+public class Start {
+    public static void main(String[] args) {
+      System.setOut(new java.io.PrintStream(System.out, true, java.nio.charset.StandardCharsets.UTF_8));
+      SoftwareDeveloper softwareDeveloper = new SoftwareDeveloper("John");
+      softwareDeveloper.work();
+      System.out.println("salsry is " +  softwareDeveloper.getSalary());
+      softwareDeveloper.doDebug();
+      softwareDeveloper.think();
+    }
+}
